@@ -73,11 +73,6 @@ def show_score(x, y):
     screen.blit(score, (x, y))
 
 
-def game_over_text():
-    over_text = font.render("GAME OVER", True, white)
-    screen.blit(over_text, (200, 250))
-
-
 def player(x, y):
     screen.blit(playerImg, (x, y))
 
